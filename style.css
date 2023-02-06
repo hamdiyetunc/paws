@@ -20,24 +20,14 @@ body{
     background:#000000cc;
 }
 #home-img{
-    height: 980px;
+    height: 900px;
     width: 100vw;
 }
 .logo{
-    left: 25px;
+    left: 10px;
     height: 70px;
     width: 100px;
     position: absolute;
-}
-.slogan{
-    display: flex;
-}
-.slogan h1{
-    color: #3b3f44ce;
-    margin-top: 815px;
-    position: absolute;
-    margin-left: 1860px;
-    border: 0.5cm solid #3b3f4496;
 }
 .btn-mini{
     margin: 0;
@@ -119,7 +109,7 @@ color: #000;
 }
 .body-home{
     width: 90%;
-    height: 990px;
+    height: 920px;
     margin-left: 50px;
     display: flex;
 }
@@ -149,7 +139,7 @@ color: #000;
     gap: 10px;
     width: 80vw;
     display: flex;
-    margin-top: 1240px;
+    margin-top: 1140px;
     position: absolute;
     justify-content: space-around;
     transform: translate(-50%, -50%); 
@@ -616,7 +606,6 @@ span.counter-text{
     margin-left: 561px;
     background: transparent;
     border: 1px solid #fff;
-    background-image: linear-gradient(rgba(0,0,0,0.7), #050505), url(cats.jpg) no-repeat;
 }
 .btn-signin:hover{
     color: aqua;
@@ -629,7 +618,7 @@ span.counter-text{
     background-size: cover;
     Justify-content: center;
     background-position: center;
-    background-image: linear-gradient(rgba(0,0,0,0.7), #050505), url(/home/bamdo/Downloads/download.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7), #050505), url(/home/bamdo/Desktop/pure-paws/images/image3.jpg);
 }
 .contact-form h1{
     color: #fff;
@@ -1308,7 +1297,7 @@ footer{
         height: 600px;
         display: flex;
         align-items: center;
-        background-image: url(/home/bamdo/Pictures/cat3.jpg);
+        background-image: url(/home/bamdo/Desktop/pure-paws/images/image5.jpg);
     }
     .login img{
         width: 100%;
@@ -1376,7 +1365,6 @@ footer{
         color: #fff;
         cursor: pointer;
         background-size: cover;
-        background: url(cats.jpg) no-repeat;
     }
     .btn-forgot-psw:hover{
         color: aqua;
@@ -1385,7 +1373,6 @@ footer{
         color: #fff;
         cursor: pointer;
         background-size: cover;
-        background: url(cats.jpg) no-repeat;
     }
     .btn-create-acc:hover{
         color: aqua;
@@ -1421,7 +1408,7 @@ footer{
         max-width: 100%;
         display: flex;
         align-items: center;
-        background-image: linear-gradient(rgba(0,0,0,0.7), #050505), url(/home/bamdo/Downloads/download.jpg);
+        background-image: linear-gradient(rgba(0,0,0,0.7), #050505), url(/home/bamdo/Desktop/pure-paws/images/image3);
     }
     .contact-form h1{
         color: #fff;
