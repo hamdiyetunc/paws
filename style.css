@@ -327,7 +327,6 @@ span.counter-text{
 .btn-donate{
     width: 150px;
     height: 40px;
-    float: right;
     color: #000;
     cursor: pointer;
     margin-top: 20px;
@@ -482,7 +481,6 @@ span.counter-text{
 }
 .btn-support{
     width: 255px;
-    float: center;
     color: #000;
     cursor: pointer;
     font-weight: 600;
