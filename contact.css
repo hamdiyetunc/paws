@@ -6,7 +6,7 @@
     background-size: cover;
     Justify-content: center;
     background-position: center;
-    background-image: linear-gradient(rgba(0,0,0,0.7), #050505), url(/home/bamdo/Desktop/pure-paws/images/image3.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7), #050505), url(../paws/images/image3.jpg);
 }
 .contact-form h1{
     color: #fff;
