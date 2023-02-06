@@ -11,7 +11,7 @@
 </head>
 <body>
     <header id="header">
-        <img src="/home/bamdo/Desktop/pure-paws/images/logo.png" class="logo">
+        <img src="../paws/images/logo.png" class="logo">
         <a href="menu2.html"><button class="btn-mini"><i class="fa fa-bars"></button></i></a>
         <div class="container">
         <div class="menu-bar">
@@ -43,20 +43,20 @@
           </div>
         </div>
     </section>
-      </div>
-      <div class="donation-section">
+    </div>
+     <div class="donation-section">
       <input class="money-box" type="text" placeholder=" $50">
       <button class="btn-donate"onclick="openPopup()">donate</button>
     </div>
       <div class="popup" id="popup">
-        <img src="/home/bamdo/Desktop/pure-paws/images/popup.png">
+        <img src="../paws/images/popup.png">
         <h2>Thank You!</h2>
         <p>Your donation has been sent successfully. Thanks!</p> 
         <button class="btn-ok"onclick="closePopup()">OK</button>
       </div>
 <footer>
   <div class="footer-content">
-      <img src="/home/bamdo/Desktop/pure-paws/images/logo.png" class="footer-logo">
+      <img src="../paws/images/logo.png" class="footer-logo">
       <p>Pure paws is a non-profit charity, all rights reserved.</p> 
     <ul class="socials"> 
       <li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -71,12 +71,12 @@
 </footer>
   <script> 
     let popup = document.getElementById("popup");
-      function openPopup(){ 
-        popup.classList.add("open-popup");
-      }
-      function closePopup(){ 
-        popup.classList.remove("open-popup");
-      }
+     function openPopup(){ 
+      popup.classList.add("open-popup");
+     }
+     function closePopup(){
+      popup.classList.remove("open-popup");
+     }
   </script>
 </body>
 </html>
