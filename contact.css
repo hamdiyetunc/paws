@@ -1,0 +1,72 @@
+.contact-form{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    Justify-content: center;
+    background-position: center;
+    background-image: linear-gradient(rgba(0,0,0,0.7), #050505), url(/home/bamdo/Desktop/pure-paws/images/image3.jpg);
+}
+.contact-form h1{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 80px;
+}
+form{
+    width: 90%;
+    max-width: 800px;
+}
+.input-form p{
+    color: white;
+}
+.contact-form-group{
+    margin-bottom: 30px;
+    position: relative;
+} 
+.contact-form-info, textarea{
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid #fff;
+    color: #fff;
+    background: transparent;
+    font-size: 15px;
+}
+label{
+    height: 100%; 
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    color: #fff; 
+    cursor: text;
+    transition: 0.2s;
+}
+.btn-send{
+    padding: 10px 0; 
+    color: #fff;
+    outline: none;
+    background: transparent;
+    border: 1px solid #fff;
+    width: 100%;
+    cursor: pointer;
+}
+.btn-send:hover{
+    color: aqua;
+}
+.contact-form-info:focus~label,
+.contact-form-info:valid~label,
+textarea:focus~label,
+textarea:valid~label{
+    top: -35px;
+    font-size: 14px;
+}
+.contact-row{
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+}
+.contact-row .contact-form-group{
+    flex-basis: 48%;
+}

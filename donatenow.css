@@ -1,0 +1,133 @@
+.body-donate{
+    width: 10%;
+    margin: 150px;
+    height: 0px;
+    display: flexbox;
+    background-size: cover;
+}
+.donate-null{
+    height: 0px;
+}
+.donate-text{
+    margin-left: 200px;
+    height: 20px;
+    width: 300px;
+    display: flex;
+    margin-top: 0px;
+    position: relative;
+}
+.donate-text h1{
+    font-size: 22px;
+    color: #aa3434;
+    margin-top: 40px;
+    line-height: 0.1em;
+}
+.donate-text p{
+    width: 600px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.3em;
+}
+.donation-column{
+    display: flex;
+    margin-top: 110px;
+    margin-left: 50px;
+    margin-bottom: -120px;
+}
+.donation-column-space{
+    margin-left: 60px;
+}
+.donate-item{
+    width: 600px;
+    height: 250px;
+    color: #d3d2d4;
+    padding-top: 10px;
+    margin-bottom: 7px;
+    border-radius: 1cm;
+    background-color: #721d1d;
+}
+.donate-item i{
+    font-size: 43px;
+    margin-left: 60px;
+    margin-right: 100px;
+    padding-right: 10px;
+}
+.donate-item h3{
+    font-size: 25px;
+    margin-left: 40px;
+    margin-bottom: 15px;
+}
+.donate-item hr{
+    padding: 0;
+    width: 90%;
+    height: 1px;
+    border: none;
+    margin: 0 auto;
+    align-items: center;
+    background-color: #000;
+}
+.donate-item p{
+    width: 450px;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.donate-item:hover{
+    background-color: #721d1d;
+}
+.donate-item:hover i,
+.donate-item:hover h3,
+.donate-item:hover p{
+    color: #fff;
+}
+.donate-item:hover hr{
+    background-color: #000;
+}
+.donate-item:hover i{
+    transform: translateY(-20px);
+}
+.donate-item:hover i,
+.donate-item:hover h3,
+.donate-item:hover hr{
+    transition: all 400ms ease-in-out;
+}
+.donation-section{
+    margin-top: 0;
+    margin-left: 880px;
+    cursor: pointer;
+    width: 600px;
+    height: 40px;
+    margin-bottom: 200px;
+    background-color: #fff;
+}
+.money-box{
+    cursor: pointer;
+    margin-left: 0;
+    margin-top: 0;
+    width: 600px;
+    height: 40px;
+}
+.btn-donate{
+    width: 150px;
+    height: 40px;
+    color: #000;
+    cursor: pointer;
+    margin-top: 20px;
+    font-weight: 600;
+    padding-top: 10px;
+    text-align: center;
+    border-radius: 50px;
+    padding-bottom: 20px;
+    display: inline-block;
+    background-size: 500px;
+    background-position: 0%;
+    border: 3px solid aqua;
+    text-transform: uppercase;
+    background-repeat: no-repeat;
+    transition: 300ms ease-in-out;
+    background-image: linear-gradient(30deg, aqua 50%, black 50%);
+}
+.btn-donate:hover{
+    color: aqua;
+    background-position: 100%;
+}
