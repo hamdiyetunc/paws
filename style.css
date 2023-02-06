@@ -568,7 +568,6 @@ span.counter-text{
     color: #fff;
     cursor: pointer;
     background-size: cover;
-    background: url(cats.jpg) no-repeat;
 }
 .btn-forgot-psw:hover{
     color: aqua;
@@ -577,7 +576,6 @@ span.counter-text{
     color: #fff;
     cursor: pointer;
     background-size: cover;
-    background: url(cats.jpg) no-repeat;
 }
 .btn-create-acc:hover{
     color: aqua;
