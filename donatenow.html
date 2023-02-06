@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>www.purepaws.com/donatenow</title>
+</head>
+<body>
+    <header id="header">
+        <img src="/home/bamdo/Downloads/logo.png" class="logo">
+        <a href="menu2.html"><button class="btn-mini"><i class="fa fa-bars"></button></i></a>
+        <div class="container">
+        <div class="menu-bar">
+        <ul>
+        <a href="index.html"><button class="btn-menu btn1">Home</button></a>
+        <a href="donatenow.html"><button class="btn-menu btn2">Donate Now!</button></a>
+        <a href="services.html"><button class="btn-menu btn3">Services</button></a>
+        <a href="contact.html"><button class="btn-menu btn4">Contact</button></a>
+        <a href="login.html"><button class="btn-menu btn5">Login</button></a>
+        </ul>
+      </div>
+      </div>
+    </header>
+    <div class="body-donate">
+    <section class="donation-column">
+        <div class="donate-item">
+        <div class="donate-item-2">
+          <i class="fa fa-money"></i>
+          <h3>DONATE</h3>
+          <hr>
+          <p>By adding your donations to our budget, we meet the food <br> and water needs of animals scattered around the world.                     
+            By adding your donations to our budget, we meet the food and water needs of animals scattered around the world.</p>                       
+        </div>
+        </div>
+        <div class="donate-text">
+          <div class="donate-null">
+            <h1>Please enter amount to donate.</h1><br>
+              <p>The donations you make through our site are never used for any other purpose.</p>
+          </div>
+        </div>
+    </section>
+      </div>
+      <div class="donation-section">
+      <input class="money-box" type="text" placeholder=" $50">
+      <button class="btn-donate"onclick="openPopup()">donate</button>
+    </div>
+      <div class="popup" id="popup">
+        <img src="/home/bamdo/Downloads/ok.png">
+        <h2>Thank You!</h2>
+        <p>Your donation has been sent successfully. Thanks!</p> 
+        <button class="btn-ok"onclick="closePopup()">OK</button>
+      </div>
+<footer>
+  <div class="footer-content">
+      <img src="/home/bamdo/Downloads/logo.png" class="footer-logo">
+      <p>Pure paws is a non-profit charity, all rights reserved.</p> 
+    <ul class="socials"> 
+      <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+      <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+      <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+      <li><a href="#"><i class="fa fa-youtube-square"></i></a></li>
+    </ul>
+  </div>
+  <div class="footer-bottom">
+    <p>copyright &copy;2023 <span>PurePaws</span></p>
+  </div>
+</footer>
+  <script> 
+    let popup = document.getElementById("popup");
+      function openPopup(){ 
+        popup.classList.add("open-popup");
+      }
+      function closePopup(){ 
+        popup.classList.remove("open-popup");
+      }
+  </script>
+</body>
+</html>
