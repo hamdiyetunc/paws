@@ -62,7 +62,9 @@
 .btn-forgot-psw{
     color: #fff;
     cursor: pointer;
+    border: none;
     background-size: cover;
+    background: url(image4.jpg) no-repeat;
 }
 .btn-forgot-psw:hover{
     color: aqua;
@@ -70,7 +72,9 @@
 .btn-create-acc{
     color: #fff;
     cursor: pointer;
+    border: none;
     background-size: cover;
+    background: url(image4.jpg) no-repeat;
 }
 .btn-create-acc:hover{
     color: aqua;
