@@ -1,27 +1,28 @@
 .body-donate{
-    margin: 150px;
-    height: 250px;
+    margin: 50px;
+    height: 550px;
     background-size: cover;
 }
 .donate-text{
+    height: 0px;
+    margin-left: 900px;
     display: inline-block;
 }
 .donate-text h1{
     font-size: 22px;
     color: #aa3434;
-    margin-left: 980px;
     line-height: 0.1em;
 }
 .donate-text p{
-    margin-left: 980px;
     width: 600px;
     color: #fff;
     font-size: 16px;
     line-height: 1.3em;
 }
 .donation-column{
+    width: 600px;
     display: flex;
-    margin-bottom: -120px;
+    justify-content: flex-end;
 }
 .donate-item{
     width: 600px;
@@ -78,9 +79,9 @@
 }
 .donation-section{
     margin-top: 0;
-    margin-left: 980px;
     width: 600px;
     height: 40px;
+    margin-left: 900px;
     margin-bottom: 200px;
 }
 .money-box{
