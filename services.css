@@ -1,38 +1,36 @@
+.services-section{
+    display: grid;
+    margin-top: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+}
 .services-text{
     margin: 30px;
     padding: 5px;
-    display: inline-block;
+    justify-content: center;
 }
 .services-text h1{
-    text-align: left;
+    text-align: center;
     color: #b14038;
     font-weight: bold;
-    margin-top: 100px;
-    margin-bottom: 10px;
-    padding-left: 774px;
+    margin-bottom: 20px;
 }
 .services-text p{
     color: #fff;
-    margin-left: 575px;
     text-align: center;
 }
-.services-section{
-    display: table;
-    margin-top: 40px;
-    text-align: center;
-    margin-left: 250px;
-    margin-bottom: 40px;
+.services-columns-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 .service-columns{
-    float: left;
-    width: 33.33%;
     padding: 15px;
     text-align: center;
     width: 400px;
     height: 300px;
-    margin-left: 50px;
     color: #d3d2d4;
     border-radius: 1cm;
+    margin-bottom: 30px;
     background-color: #721d1d;
 }
 .service-columns i{
@@ -55,7 +53,6 @@
 .service-columns p{
     width: 70%;
     margin: 30px;
-    display: inline-block;
     text-align: center;
 }
 .service-columns:hover{
