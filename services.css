@@ -76,6 +76,7 @@
 .btn-support{
     padding: 15px;
     font-weight: 600;
+    margin-left: 8px;
     width: 255px;
     color: #000;
     cursor: pointer;
