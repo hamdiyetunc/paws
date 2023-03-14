@@ -1,11 +1,12 @@
 .services-section{
     display: grid;
+    justify-content: center;
     margin-top: 40px;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 70px;
 }
 .services-text{
-    margin: 30px;
+    margin: 50px;
     padding: 5px;
     justify-content: center;
 }
@@ -21,13 +22,13 @@
 }
 .services-columns-section{
     display: grid;
+    gap: 90px;
     grid-template-columns: repeat(3, 1fr);
 }
 .service-columns{
-    padding: 15px;
-    text-align: center;
+    padding: 20px;
     width: 400px;
-    height: 300px;
+    height: 280px;
     color: #d3d2d4;
     border-radius: 1cm;
     margin-bottom: 30px;
@@ -35,7 +36,6 @@
 }
 .service-columns i{
     font-size: 43px;
-    text-align: center;
 }
 .service-columns h3{
     font-size: 25px;
@@ -51,7 +51,6 @@
     background-color: #000;
 }
 .service-columns p{
-    width: 70%;
     margin: 30px;
     text-align: center;
 }
