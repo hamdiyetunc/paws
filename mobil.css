@@ -21,6 +21,10 @@
         text-align: right;
         background:#000000cc;
     }
+    .home-image{
+        height: 290px;
+        width: 100%;
+    }
     #home-img{
         height: 250px;
         width: 100%;
@@ -33,7 +37,7 @@
         position: absolute;
     }
     .slogan{
-        display: flex;
+        display: none;
     }
     .slogan h1{
         width: 60px;
@@ -164,7 +168,7 @@
     .counter-container{
         width: 60vw;
         display: flex;
-        margin-top: 260px;
+        margin-top: 300px;
         position: absolute;
         transform: translate(-50%, -50%); 
     }
