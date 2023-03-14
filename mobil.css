@@ -92,7 +92,7 @@
         transition: color 0.4s linear;
     }
     .btn-menu2:hover{
-    color: #000;
+        color: #000;
     }
     .btn-menu2::before{
         top: 0;
