@@ -1,12 +1,16 @@
 .body-donate{
-    margin: 50px;
+    display: flex;
+    margin: 0px;
     height: 550px;
+    margin-top: 200px;
+    justify-content: center;
     background-size: cover;
 }
 .donate-text{
     height: 0px;
-    margin-left: 900px;
-    display: inline-block;
+    margin-top: 50px;
+    justify-content: center;
+    margin-left: 300px;
 }
 .donate-text h1{
     font-size: 22px;
@@ -19,28 +23,27 @@
     font-size: 16px;
     line-height: 1.3em;
 }
-.donation-column{
-    width: 600px;
-    display: flex;
-    justify-content: flex-end;
-}
 .donate-item{
+    text-align: center;
+    height: 260px;
     width: 600px;
-    height: 250px;
     color: #d3d2d4;
-    padding-top: 10px;
+    padding-top: 20px;
     border-radius: 1cm;
     background-color: #721d1d;
 }
 .donate-item i{
+    display: flex;
+    justify-items: left;
     font-size: 43px;
-    margin-left: 60px;
+    margin-left: 80px;
     margin-right: 100px;
     padding-right: 10px;
 }
 .donate-item h3{
+    text-align: left;
     font-size: 25px;
-    margin-left: 40px;
+    margin-left: 55px;
     margin-bottom: 15px;
 }
 .donate-item hr{
@@ -81,13 +84,12 @@
     margin-top: 0;
     width: 600px;
     height: 40px;
-    margin-left: 900px;
-    margin-bottom: 200px;
+    margin-bottom: 0px;
 }
 .money-box{
     cursor: pointer;
     margin-left: 0;
-    margin-top: 0;
+    margin-top: 20px;
     width: 600px;
     height: 40px;
 }
