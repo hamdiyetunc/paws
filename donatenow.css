@@ -1,8 +1,8 @@
 .body-donate{
     display: flex;
     margin: 0px;
-    height: 550px;
-    margin-top: 200px;
+    height: 450px;
+    margin-top: 150px;
     justify-content: center;
     background-size: cover;
 }
