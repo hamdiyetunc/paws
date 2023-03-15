@@ -3,7 +3,7 @@ footer{
     height: auto;
     width: 100%;
     font-family: "Open Sans";
-    padding-top: 40px;
+    padding-top: 25px;
     color: #fff;
 }
 .footer-logo{
@@ -54,7 +54,7 @@ footer{
 .footer-bottom{
     background: #111;
     width: 100vw;
-    padding: 10px 0;
+    padding: 6px 0;
     text-align: center;
 }
 .footer-bottom p{
