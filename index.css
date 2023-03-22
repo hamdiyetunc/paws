@@ -9,6 +9,8 @@
 }
 .slogan h1{
     position: absolute;
+    padding: 5px;
+    font-size: 30px;
     color: #4d5053;
     bottom: 0px;
     right: 0px;
