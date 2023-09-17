@@ -137,7 +137,7 @@ body{
     visibility: visible;
     transform: translate(-50%, -50%) scale(1);
 }
-.popup .btn-ok{
+.popup .ok-btn{
     border: 0;
     width: 100%;
     color: #fff;
@@ -150,10 +150,10 @@ body{
     background: #363838;
     box-shadow: 0 5px 5px rgba(0,0,0,0.2);
 }
-.popup .btn-ok:hover{
+.popup .ok-btn:hover{
     color: aqua;
 }
-.btn-confirm{
+.confirm-btn{
     width: 30%;
     color: #fff;
     outline: none;
@@ -163,10 +163,10 @@ body{
     background: transparent;
     border: 1px solid #fff;
 }
-.btn-confirm:hover{
+.confirm-btn:hover{
     color: aqua;
 }
-.btn-signin{
+.signin-btn{
     width: 30%;
     color: #fff;
     outline: none;
@@ -176,6 +176,6 @@ body{
     background: transparent;
     border: 1px solid #fff;
 }
-.btn-signin:hover{
+.signin-btn:hover{
     color: aqua;
 }
