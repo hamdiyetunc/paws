@@ -12,22 +12,20 @@
     <title>www.purepaws.com/donatenow</title>
 </head>
 <body>
-    <header id="header">
-      <a href="home-page.html"><img src="../paws/images/logo.png" class="logo"></a>
-      <a href="menu.html"><button class="btn-mini"><i class="fa fa-bars"></button></i></a>
-        <div class="container">
-          <div class="menu-bar">
-            <ul>
-              <a href="home-page.html"><button class="btn-menu btn1">Home</button></a>
-              <a href="donation-page.html"><button class="btn-menu btn2">Donate Now!</button></a>
-              <a href="services-page.html"><button class="btn-menu btn3">Services</button></a>
-              <a href="contact-page.html"><button class="btn-menu btn4">Contact</button></a>
-              <a href="login-page.html"><button class="btn-menu btn5">Login</button></a>
-            </ul>
-          </div>
-        </div>
-    </header>
-    <div class="body-donate">
+  <header id="header">
+    <a href="home-page.html"><img src="../paws/images/logo.png" class="logo"></a>
+    <a href="menu.html"><button class="menu-btn"><i class="fa fa-bars"></button></i></a>
+    <nav class="menu-bar">
+        <ul>
+            <a href="home-page.html"><button class="menu-item btn1">Home</button></a>
+            <a href="donation-page.html"><button class="menu-item btn2">Donate Now!</button></a>
+            <a href="services-page.html"><button class="menu-item btn3">Services</button></a>
+            <a href="contact-page.html"><button class="menu-item btn4">Contact</button></a>
+            <a href="login-page.html"><button class="menu-item btn5">Login</button></a>
+        </ul>
+    </nav>
+  </header>
+    <div class="donation-page-container">
         <div class="donate-item">
           <i class="fa fa-money"></i>
           <h3>DONATE</h3>
@@ -40,7 +38,7 @@
             <p>The donations you make through our site are never used for any other purpose.</p>
           <div class="donation-section">
             <input class="money-box" type="text" placeholder=" $50">
-            <button class="btn-donate"onclick="openPopup()">Donate</button>
+            <button class="donate-btn"onclick="openPopup()">Donate</button>
           </div>
         </div>
     </div>

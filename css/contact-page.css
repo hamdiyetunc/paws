@@ -48,7 +48,7 @@ label{
     cursor: text;
     transition: 0.2s;
 }
-.btn-send{
+.send-btn{
     padding: 10px 0; 
     color: #fff;
     outline: none;
@@ -57,7 +57,7 @@ label{
     width: 100%;
     cursor: pointer;
 }
-.btn-send:hover{
+.send-btn:hover{
     color: aqua;
 }
 .contact-form-info:focus~label,

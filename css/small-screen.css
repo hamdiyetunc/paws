@@ -21,11 +21,11 @@
         text-align: right;
         background:#000000cc;
     }
-    .home-image{
+    .home-page-img{
         height: 290px;
         width: 100%;
     }
-    #home-img{
+    #home-page-img{
         height: 250px;
         width: 100%;
     }
@@ -54,7 +54,7 @@
         font-size: 10px;
         border: 0.2cm solid #4d5053;
     }
-    .btn-mini{
+    .menu-btn{
         float: right;
         margin: 0px;
         cursor: pointer;
@@ -67,7 +67,7 @@
         display: block;
         text-decoration: none;
     }
-    .btn-mini i{
+    .menu-btn i{
         font-size: 25px;
         color: #fff;
         display: block;
@@ -80,9 +80,6 @@
     .menu-bar2{
         margin-top: 100px;
         margin-right: 70px;
-    }
-    .btn-menu{
-        display: none;
     }
     .btn-menu2{
         margin: 20px;
@@ -142,13 +139,13 @@
     .btn5:hover::before{
         transform: scaleX(1);
     }
-    .body-home{
+    .home-page-container{
         width: 0;
         height: 650px;
         margin-left: 0;
         display: flex;
     }
-    .body-home img{
+    .home-page-img2{
         display: none;
     }
     .about-us{

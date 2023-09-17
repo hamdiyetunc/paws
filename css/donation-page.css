@@ -1,4 +1,4 @@
-.body-donate{
+.donation-page-container{
     display: flex;
     margin: 0px;
     height: 450px;
@@ -94,7 +94,7 @@
     width: 600px;
     height: 40px;
 }
-.btn-donate{
+.donate-btn{
     float: right;
     width: 150px;
     height: 40px;
@@ -115,7 +115,7 @@
     transition: 300ms ease-in-out;
     background-image: linear-gradient(30deg, aqua 50%, black 50%);
 }
-.btn-donate:hover{
+.donate-btn:hover{
     color: aqua;
     background-position: 100%;
 }

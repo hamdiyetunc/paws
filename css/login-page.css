@@ -1,18 +1,6 @@
-body {
-    background-image: linear-gradient(rgba(0,0,0,0.7), #050505), url('/home/bamdo/Desktop/paws/images/image4.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-.login img{
+.login-container img{
     width: 100%;
     height: 800px;
-}
-.login-box-section{
-    margin: 0;
-    padding: 0;
-    background-size: cover;   
-    font-family: sans-serif;
 }
 .login-box{
     top: 30%;
@@ -52,7 +40,7 @@ body {
     font-size: 18px;
     background: none;
 }
-.btn-login{
+.login-btn{
     width: 100%;
     padding: 5px;
     color: #fff;
@@ -62,26 +50,22 @@ body {
     background: none;
     border: 2px solid #fff;
 }
-.btn-login:hover{
+.login-btn:hover{
     color: aqua;
 }
-.btn-forgot-psw{
+.forgot-pw-btn{
     color: #fff;
     cursor: pointer;
     border: none;
-    background-size: cover;
-    background-image: url('/home/bamdo/Desktop/paws/images/image4.jpg') no-repeat;
 }
-.btn-forgot-psw:hover{
+.forgot-pw-btn:hover{
     color: aqua;
 }
-.btn-create-acc{
+.create-acc-btn{
     color: #fff;
     cursor: pointer;
     border: none;
-    background-size: cover;
-    background-image: url('../paws/images/image4.jpg') no-repeat;
 }
-.btn-create-acc:hover{
+.create-acc-btn:hover{
     color: aqua;
 }

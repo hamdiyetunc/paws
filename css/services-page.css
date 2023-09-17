@@ -73,7 +73,7 @@
 .service-columns:hover hr{
     transition: all 400ms ease-in-out;
 }
-.btn-support{
+.support-btn{
     padding: 15px;
     font-weight: 600;
     margin-left: 8px;
@@ -87,7 +87,7 @@
     transition: 300ms ease-in-out;
     background-image: linear-gradient(30deg, aqua 50%, black 50%);
 }
-.btn-support:hover{
+.support-btn:hover{
     color: aqua;
     background-position: 100%;
 }
