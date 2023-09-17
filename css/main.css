@@ -1,4 +1,4 @@
-.body-home{
+.home-page-container{
     display: flex;
     width: 90%;
     height: 920px;
@@ -19,11 +19,11 @@
     margin-right: 30px;
     border: 0.5cm solid #4d5053;
 }
-.home-image{
+.home-page-img{
     height: 810px;
     width: 100%;
 }
-.body-home img{
+.home-page-img2{
     width: 700px;
     height: 400px;
     margin-top: 120px;
