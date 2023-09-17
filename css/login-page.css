@@ -53,18 +53,15 @@
 .login-btn:hover{
     color: aqua;
 }
-.forgot-pw-btn{
-    color: #fff;
-    cursor: pointer;
-    border: none;
-}
-.forgot-pw-btn:hover{
-    color: aqua;
-}
+.forgot-pw-btn,
 .create-acc-btn{
     color: #fff;
     cursor: pointer;
     border: none;
+    background-color: rgba(255, 255, 255, 0);
+}
+.forgot-pw-btn:hover{
+    color: aqua;
 }
 .create-acc-btn:hover{
     color: aqua;
